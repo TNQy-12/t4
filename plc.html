@@ -20,7 +20,9 @@
         <header>
           <!-- Logo on the left -->
           <div class="header-logo">
-            <img src="img/hyper_logo.png" alt="HyperTECH" title="Hypertech.com.vn">
+            <a href="index.html">
+                <img src="img/hyper_logo.png" alt="HyperTECH" title="hypertech.com.vn">
+            </a>
         </div>
     
           <!-- Right-side content -->
@@ -78,30 +80,165 @@
                   <div class="divider"></div>
           
                   <!-- Product Information with dropdown -->
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="productDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      <span id="product_0">Sản phẩm</span>
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="productDropdown">
-                      <li>
-                          <a class="dropdown-item" href="#">
-                              <i class="fas fa-list-alt"></i> <!-- Biểu tượng cho Danh mục sản phẩm -->
-                              <span id="product_1">Danh mục sản phẩm</span>
-                          </a>
-                      </li>
-                      <li>
-                          <a class="dropdown-item" href="#">
-                              <i class="fas fa-cogs"></i> <!-- Biểu tượng cho Thông số kỹ thuật -->
-                              <span id="product_2">Thông số kỹ thuật</span>
-                          </a>
-                      </li>
-                      <li>
-                          <a class="dropdown-item" href="#">
-                              <i class="fas fa-book-open"></i> <!-- Biểu tượng cho Hướng dẫn sử dụng -->
-                              <span id="product_3">Hướng dẫn sử dụng</span>
-                          </a>
-                      </li>
-                  </ul>
+              <!-- Product Information with dropdown -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="productDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span id="product_0">Sản phẩm</span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="productDropdown">
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#" id="categoryDropdown">
+                            <i class="fas fa-list-alt"></i> 
+                            <span id="product_1">Tự động hóa</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="plc.html">
+                                    <i class="fas fa-microchip"></i> 
+                                    <span id="product_4">PLC</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-desktop"></i> 
+                                    <span id="product_5">HMI</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-bolt"></i> 
+                                    <span id="product_6">MOTION CONTROL</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-plug"></i> 
+                                    <span id="product_7">Biến tần</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-cogs"></i> 
+                                    <span id="product_8">Motor</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#" id="sensorDropdown">
+                            <i class="fas fa-cogs"></i> 
+                            <span id="product_2">Thiết bị đo lường & cảm biến</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="plc.html">
+                                    <i class="fas fa-rss"></i> 
+                                    <span id="sensor_1">Cảm biến</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-sync"></i> 
+                                    <span id="sensor_2">Encoder</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-sort-numeric-up"></i> 
+                                    <span id="sensor_3">Bộ đếm</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-tachometer-alt"></i> 
+                                    <span id="sensor_4">Đồng hồ đo</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-water"></i> 
+                                    <span id="sensor_5">Bộ điều khiển mực nước</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-bolt"></i> 
+                                    <span id="sensor_6">Bộ điều khiển nguồn</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- Mục mới: Vật tư tủ điện -->
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#" id="electricalDropdown">
+                            <i class="fas fa-box"></i> 
+                            <span id="product_9">Vật tư tủ điện</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-box"></i> 
+                                    <span id="electrical_1">Tủ điện</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-plug"></i> 
+                                    <span id="electrical_2">Dây điện</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-fan"></i> 
+                                    <span id="electrical_3">Quạt tản nhiệt</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-hand-pointer"></i> 
+                                    <span id="electrical_4">Nút nhấn</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-bell"></i> 
+                                    <span id="electrical_5">Còi báo</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-lightbulb"></i> 
+                                    <span id="electrical_6">Đèn</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-terminal"></i> 
+                                    <span id="electrical_7">Terminal</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-battery-full"></i> 
+                                    <span id="electrical_8">Biến dòng - CT</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-tools"></i> 
+                                    <span id="electrical_9">Phụ kiện tủ điện</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            <i class="fas fa-book-open"></i> 
+                            <span id="product_3">Wifi Smart Switch</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
                   
                   </li>
                   <div class="divider"></div>
@@ -226,29 +363,50 @@
                   <!-- Support/FAQ with dropdown -->
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="supportDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      <span id="support_0">Hỗ trợ/FAQ</span>
+                        <span id="support_0">Hỗ trợ/FAQ</span>
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="supportDropdown">
-                      <li>
-                          <a class="dropdown-item" href="#">
-                              <i class="fas fa-question-circle"></i> <!-- Biểu tượng cho FAQ -->
-                              <span id="support_1">FAQ</span>
-                          </a>
-                      </li>
-                      <li>
-                          <a class="dropdown-item" href="#">
-                              <i class="fas fa-cogs"></i> <!-- Biểu tượng cho Phần mềm -->
-                              <span id="support_2">Phần mềm</span>
-                          </a>
-                      </li>
-                      <li>
-                          <a class="dropdown-item" href="#">
-                              <i class="fas fa-tools"></i> <!-- Biểu tượng cho Thiết bị - Kỹ Thuật -->
-                              <span id="support_3">Thiết bị - Kỹ Thuật</span>
-                          </a>
-                      </li>
-                  </ul>
-                  </li>
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                <i class="fas fa-question-circle"></i> 
+                                <span id="support_1">FAQ</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                <i class="fas fa-cogs"></i> 
+                                <span id="support_2">Phần mềm</span>
+                            </a>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="#" id="courseDropdown">
+                                <i class="fas fa-tools"></i>  
+                                <span id="support_3">Khóa học</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="elan.html">
+                                        <i class="fas fa-book"></i> 
+                                        <span>EPLAN Electric</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="cad.html">
+                                        <i class="fas fa-drafting-compass"></i> 
+                                        <span>AutoCAD Electrical</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="plc.html">
+                                        <i class="fas fa-microchip"></i> 
+                                        <span>PLC</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                
                 </ul>
               </div>
             </div>
@@ -260,8 +418,7 @@
     <h2 class="fw-bold" id="products">SẢN PHẨM</h2>
     <div class="row justify-content-center">
         <!-- Page 1 -->
-
-        <div class="col-md-3 mb-4 product-item page-1">
+        <div class="col-md-3 mb-4 product-item page-2">
             <div class="product-card">
                 <div class="product-frame">
                     <img src="img/sensor/product_1.png" alt="Cảm biến 1" class="product-image img-fluid">
@@ -275,7 +432,7 @@
         </div>
 
         
-        <div class="col-md-3 mb-4 product-item page-1">
+        <div class="col-md-3 mb-4 product-item page-2">
             <div class="product-card">
                 <div class="product-frame">
                     <img src="img/sensor/product_2.png" alt="Cảm biến 1" class="product-image img-fluid">
@@ -287,7 +444,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3 mb-4 product-item page-1">
+        <div class="col-md-3 mb-4 product-item page-2">
             <div class="product-card">
                 <div class="product-frame">
                     <img src="img/sensor/product_3.png" alt="Cảm biến 1" class="product-image img-fluid">
@@ -301,7 +458,7 @@
         </div>
         
 
-        <div class="col-md-3 mb-4 product-item page-1">
+        <div class="col-md-3 mb-4 product-item page-2">
             <div class="product-card">
                 <div class="product-frame">
                     <img src="img/sensor/product_4.png" alt="Cảm biến 1" class="product-image img-fluid">
@@ -313,7 +470,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3 mb-4 product-item page-1">
+        <div class="col-md-3 mb-4 product-item page-2">
             <div class="product-card">
                 <div class="product-frame">
                     <img src="img/sensor/product_5.png" alt="Cảm biến 1" class="product-image img-fluid">
@@ -325,7 +482,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3 mb-4 product-item page-1">
+        <div class="col-md-3 mb-4 product-item page-2">
             <div class="product-card">
                 <div class="product-frame">
                     <img src="img/sensor/product_6.png" alt="Cảm biến 1" class="product-image img-fluid">
@@ -337,7 +494,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3 mb-4 product-item page-1">
+        <div class="col-md-3 mb-4 product-item page-2">
             <div class="product-card">
                 <div class="product-frame">
                     <img src="img/sensor/product_7.png" alt="Cảm biến 1" class="product-image img-fluid">
@@ -350,7 +507,7 @@
             </div>
         </div>
         
-        <div class="col-md-3 mb-4 product-item page-1">
+        <div class="col-md-3 mb-4 product-item page-2">
             <div class="product-card">
                 <div class="product-frame">
                     <img src="img/sensor/product_8.png" alt="Cảm biến 1" class="product-image img-fluid">
@@ -363,7 +520,7 @@
             </div>
         </div>
 
-        <div class="col-md-3 mb-4 product-item page-1">
+        <div class="col-md-3 mb-4 product-item page-2">
             <div class="product-card">
                 <div class="product-frame">
                     <img src="img/sensor/product_9.png" alt="Cảm biến 1" class="product-image img-fluid">
@@ -375,7 +532,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3 mb-4 product-item page-1">
+        <div class="col-md-3 mb-4 product-item page-2">
             <div class="product-card">
                 <div class="product-frame">
                     <img src="img/sensor/product_10.png" alt="Cảm biến 1" class="product-image img-fluid">
@@ -387,7 +544,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3 mb-4 product-item page-1">
+        <div class="col-md-3 mb-4 product-item page-2">
             <div class="product-card">
                 <div class="product-frame">
                     <img src="img/sensor/product_11.png" alt="Cảm biến 1" class="product-image img-fluid">
@@ -400,7 +557,7 @@
             </div>
         </div>
         
-        <div class="col-md-3 mb-4 product-item page-1">
+        <div class="col-md-3 mb-4 product-item page-2">
             <div class="product-card">
                 <div class="product-frame">
                     <img src="img/sensor/product_12.png" alt="Cảm biến 1" class="product-image img-fluid">
@@ -415,7 +572,7 @@
 
 
         <!-- Page 2 -->
-        <div class="col-md-3 mb-4 product-item page-2">
+        <div class="col-md-3 mb-4 product-item page-1">
             <div class="product-card">
                 <div class="product-frame">
                     <img src="img/sensor/p_1.png" alt="Cảm biến 3" class="product-image img-fluid">
@@ -427,7 +584,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3 mb-4 product-item page-2">
+        <div class="col-md-3 mb-4 product-item page-1">
             <div class="product-card">
                 <div class="product-frame">
                     <img src="img/sensor/p_2.png" alt="Cảm biến 4" class="product-image img-fluid">
@@ -439,7 +596,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3 mb-4 product-item page-2">
+        <div class="col-md-3 mb-4 product-item page-1">
             <div class="product-card">
                 <div class="product-frame">
                     <img src="img/sensor/p_3.png" alt="IAI 2" class="product-image img-fluid">
@@ -451,7 +608,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3 mb-4 product-item page-2">
+        <div class="col-md-3 mb-4 product-item page-1">
             <div class="product-card">
                 <div class="product-frame">
                     <img src="img/sensor/p_3.png" alt="Cảm biến 3" class="product-image img-fluid">
@@ -463,7 +620,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3 mb-4 product-item page-2">
+        <div class="col-md-3 mb-4 product-item page-1">
             <div class="product-card">
                 <div class="product-frame">
                     <img src="img/sensor/p_5.png" alt="Cảm biến 4" class="product-image img-fluid">
@@ -475,7 +632,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3 mb-4 product-item page-2">
+        <div class="col-md-3 mb-4 product-item page-1">
             <div class="product-card">
                 <div class="product-frame">
                     <img src="img/sensor/p_6.png" alt="IAI 2" class="product-image img-fluid">
@@ -487,7 +644,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3 mb-4 product-item page-2">
+        <div class="col-md-3 mb-4 product-item page-1">
             <div class="product-card">
                 <div class="product-frame">
                     <img src="img/sensor/p_7.png" alt="Cảm biến 3" class="product-image img-fluid">
@@ -499,7 +656,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3 mb-4 product-item page-2">
+        <div class="col-md-3 mb-4 product-item page-1">
             <div class="product-card">
                 <div class="product-frame">
                     <img src="img/sensor/p_8.png" alt="Cảm biến 4" class="product-image img-fluid">
@@ -516,11 +673,11 @@
         <div class="col-md-3 mb-4 product-item page-3">
             <div class="product-card">
                 <div class="product-frame">
-                    <img src="img/sensor5.jpg" alt="Cảm biến 5" class="product-image img-fluid">
+                    <img src="img/sensor/p1.png" alt="Cảm biến 5" class="product-image img-fluid">
                     <div class="product-info">
-                        <h4 class="product-name">Cảm biến E</h4>
-                        <p class="product-description">Mô tả ngắn về cảm biến E.</p>
-                        <p class="product-price">$1099.99</p>
+                        <h4 class="product-name">HMI Weintek</h4>
+                        <p class="product-description">MT8102iE 10 Inch - Ethernet</p>
+                        <p class="product-price">6.550.000 ₫</p>
                     </div>
                 </div>
             </div>
@@ -528,11 +685,11 @@
         <div class="col-md-3 mb-4 product-item page-3">
             <div class="product-card">
                 <div class="product-frame">
-                    <img src="img/sensor6.jpg" alt="Cảm biến 6" class="product-image img-fluid">
+                    <img src="img/sensor/p2.png" alt="Cảm biến 6" class="product-image img-fluid">
                     <div class="product-info">
-                        <h4 class="product-name">Cảm biến F</h4>
-                        <p class="product-description">Mô tả ngắn về cảm biến F.</p>
-                        <p class="product-price">$1199.99</p>
+                        <h4 class="product-name">HMI Weintek</h4>
+                        <p class="product-description">MT8072IP 7 Inch - Ethernet</p>
+                        <p class="product-price">2.550.000 ₫</p>
                     </div>
                 </div>
             </div>
@@ -540,16 +697,75 @@
         <div class="col-md-3 mb-4 product-item page-3">
             <div class="product-card">
                 <div class="product-frame">
-                    <img src="img/iai3.jpg" alt="IAI 3" class="product-image img-fluid">
+                    <img src="img/sensor/p3.png" alt="IAI 3" class="product-image img-fluid">
                     <div class="product-info">
-                        <h4 class="product-name">IAI C</h4>
-                        <p class="product-description">Mô tả ngắn về IAI C.</p>
+                        <h4 class="product-name">HMI Delta</h4>
+                        <p class="product-description">DOP-107DV 7 Inch - RS232 / RS485 / RS422</p>
                         <p class="product-price">$1299.99</p>
                     </div>
                 </div>
             </div>
         </div>
-
+        <div class="col-md-3 mb-4 product-item page-3">
+            <div class="product-card">
+                <div class="product-frame">
+                    <img src="img/sensor/P4.png" alt="IAI 3" class="product-image img-fluid">
+                    <div class="product-info">
+                        <h4 class="product-name">HMI Mitsubishi</h4>
+                        <p class="product-description">GS2110-WTBD 10 Inch - RS232/RS485/RS422 Ethernet </p>
+                        <p class="product-price">7.990.000 ₫</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4 product-item page-3">
+            <div class="product-card">
+                <div class="product-frame">
+                    <img src="img/sensor/p1.png" alt="Cảm biến 5" class="product-image img-fluid">
+                    <div class="product-info">
+                        <h4 class="product-name">HMI Weintek</h4>
+                        <p class="product-description">MT8102iE 10 Inch - Ethernet</p>
+                        <p class="product-price">6.550.000 ₫</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4 product-item page-3">
+            <div class="product-card">
+                <div class="product-frame">
+                    <img src="img/sensor/p2.png" alt="Cảm biến 6" class="product-image img-fluid">
+                    <div class="product-info">
+                        <h4 class="product-name">HMI Weintek</h4>
+                        <p class="product-description">MT8072IP 7 Inch - Ethernet</p>
+                        <p class="product-price">2.550.000 ₫</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4 product-item page-3">
+            <div class="product-card">
+                <div class="product-frame">
+                    <img src="img/sensor/p3.png" alt="IAI 3" class="product-image img-fluid">
+                    <div class="product-info">
+                        <h4 class="product-name">HMI Delta</h4>
+                        <p class="product-description">DOP-107DV 7 Inch - RS232 / RS485 / RS422</p>
+                        <p class="product-price">$1299.99</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4 product-item page-3">
+            <div class="product-card">
+                <div class="product-frame">
+                    <img src="img/sensor/P4.png" alt="IAI 3" class="product-image img-fluid">
+                    <div class="product-info">
+                        <h4 class="product-name">HMI Mitsubishi</h4>
+                        <p class="product-description">GS2110-WTBD 10 Inch - RS232/RS485/RS422 Ethernet </p>
+                        <p class="product-price">7.990.000 ₫</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- Page 4 -->
         <div class="col-md-3 mb-4 product-item page-4">
@@ -731,7 +947,7 @@
                 </a>
             </li>
             <li class="page-item">
-                <a class="page-link" href="#" data-page="last">Trang cuối</a>
+                <a class="page-link" href="#" data-page="last">Last</a>
             </li>
         </ul>
     </div>

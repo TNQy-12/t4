@@ -421,13 +421,21 @@ body {
     .text-center {
         padding-top: 10px; /* Giảm padding-top xuống 10px */
     }
-    #nonee {
-      content: url('img/6.png'); /* Đường dẫn đến hình ảnh mới */
+    #none_1 {
+      content: url('img/service2.png'); /* Đường dẫn đến hình ảnh mới */
     }
 
 
-    #nonee_1 {
-      content: url('img/tú.png'); /* Đường dẫn đến hình ảnh mới */
+    #none_2 {
+      content: url('img/huy.png'); /* Đường dẫn đến hình ảnh mới */
+    }
+
+    #none_3 {
+      content: url('img/tú_1.png'); /* Đường dẫn đến hình ảnh mới */
+    }
+
+    #none_4 {
+      content: url('img/sinh.png'); /* Đường dẫn đến hình ảnh mới */
     }
 
 

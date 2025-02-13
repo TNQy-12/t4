@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HyperTECH Co.,Ltd</title>
+  <title>HyperTECH Solutions</title>
   <link rel="Icon" href="img/LOGO_HYPER-removebg-preview.png">
   <!-- Bootstrap CSS -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
@@ -19,8 +19,12 @@
     <header>
       <!-- Logo on the left -->
       <div class="header-logo">
-        <img src="img/hyper_logo.png" alt="HyperTECH" title="Hypertech.com.vn">
+        <a href="index.html">
+            <img src="img/hyper_logo.png" alt="HyperTECH" title="hypertech.com.vn">
+        </a>
     </div>
+    
+    
 
       <!-- Right-side content -->
       <div class="d-flex align-items-center">
@@ -79,28 +83,162 @@
               <!-- Product Information with dropdown -->
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="productDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <span id="product_0">Sản phẩm</span>
+                    <span id="product_0">Sản phẩm</span>
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="productDropdown">
-                  <li>
-                    <a class="dropdown-item" href="product.html">
-                      <i class="fas fa-list-alt"></i> <!-- Biểu tượng cho Danh mục sản phẩm -->
-                      <span id="product_1">Danh mục sản phẩm</span>
-                  </a>                  
-                  </li>
-                  <li>
-                      <a class="dropdown-item" href="#">
-                          <i class="fas fa-cogs"></i> <!-- Biểu tượng cho Thông số kỹ thuật -->
-                          <span id="product_2">Thông số kỹ thuật</span>
-                      </a>
-                  </li>
-                  <li>
-                      <a class="dropdown-item" href="#">
-                          <i class="fas fa-book-open"></i> <!-- Biểu tượng cho Hướng dẫn sử dụng -->
-                          <span id="product_3">Hướng dẫn sử dụng</span>
-                      </a>
-                  </li>
-              </ul>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#" id="categoryDropdown">
+                            <i class="fas fa-list-alt"></i> 
+                            <span id="product_1">Tự động hóa</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="plc.html">
+                                    <i class="fas fa-microchip"></i> 
+                                    <span id="product_4">PLC</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-desktop"></i> 
+                                    <span id="product_5">HMI</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-bolt"></i> 
+                                    <span id="product_6">MOTION CONTROL</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-plug"></i> 
+                                    <span id="product_7">Biến tần</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-cogs"></i> 
+                                    <span id="product_8">Motor</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#" id="sensorDropdown">
+                            <i class="fas fa-cogs"></i> 
+                            <span id="product_2">Thiết bị đo lường & cảm biến</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="product.html">
+                                    <i class="fas fa-rss"></i> 
+                                    <span id="sensor_1">Cảm biến</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-sync"></i> 
+                                    <span id="sensor_2">Encoder</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-sort-numeric-up"></i> 
+                                    <span id="sensor_3">Bộ đếm</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-tachometer-alt"></i> 
+                                    <span id="sensor_4">Đồng hồ đo</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-water"></i> 
+                                    <span id="sensor_5">Bộ điều khiển mực nước</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-bolt"></i> 
+                                    <span id="sensor_6">Bộ điều khiển nguồn</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- Mục mới: Vật tư tủ điện -->
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#" id="electricalDropdown">
+                            <i class="fas fa-box"></i> 
+                            <span id="product_9">Vật tư tủ điện</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-box"></i> 
+                                    <span id="electrical_1">Tủ điện</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-plug"></i> 
+                                    <span id="electrical_2">Dây điện</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-fan"></i> 
+                                    <span id="electrical_3">Quạt tản nhiệt</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-hand-pointer"></i> 
+                                    <span id="electrical_4">Nút nhấn</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-bell"></i> 
+                                    <span id="electrical_5">Còi báo</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-lightbulb"></i> 
+                                    <span id="electrical_6">Đèn</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-terminal"></i> 
+                                    <span id="electrical_7">Terminal</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-battery-full"></i> 
+                                    <span id="electrical_8">Biến dòng - CT</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <i class="fas fa-tools"></i> 
+                                    <span id="electrical_9">Phụ kiện tủ điện</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            <i class="fas fa-book-open"></i> 
+                            <span id="product_3">Wifi Smart Switch</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
               
               </li>
               <div class="divider"></div>
@@ -225,29 +363,49 @@
               <!-- Support/FAQ with dropdown -->
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="supportDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <span id="support_0">Hỗ trợ/FAQ</span>
+                    <span id="support_0">Hỗ trợ/FAQ</span>
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="supportDropdown">
-                  <li>
-                      <a class="dropdown-item" href="#">
-                          <i class="fas fa-question-circle"></i> <!-- Biểu tượng cho FAQ -->
-                          <span id="support_1">FAQ</span>
-                      </a>
-                  </li>
-                  <li>
-                      <a class="dropdown-item" href="#">
-                          <i class="fas fa-cogs"></i> <!-- Biểu tượng cho Phần mềm -->
-                          <span id="support_2">Phần mềm</span>
-                      </a>
-                  </li>
-                  <li>
-                      <a class="dropdown-item" href="#">
-                          <i class="fas fa-tools"></i> <!-- Biểu tượng cho Thiết bị - Kỹ Thuật -->
-                          <span id="support_3">Thiết bị - Kỹ Thuật</span>
-                      </a>
-                  </li>
-              </ul>
-              </li>
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            <i class="fas fa-question-circle"></i> 
+                            <span id="support_1">FAQ</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#">
+                            <i class="fas fa-cogs"></i> 
+                            <span id="support_2">Phần mềm</span>
+                        </a>
+                    </li>
+                    <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#" id="courseDropdown">
+                            <i class="fas fa-tools"></i>  
+                            <span id="support_3">Khóa học</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a class="dropdown-item" href="eplan.html">
+                                <i class="fas fa-book"></i> 
+                                <span>EPLAN Electric</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="cad.html">
+                                <i class="fas fa-drafting-compass"></i> 
+                                <span>AutoCAD Electrical</span>
+                            </a>
+                        </li>
+                            <li>
+                                <a class="dropdown-item" href="plc.html">
+                                    <i class="fas fa-microchip"></i> 
+                                    <span>PLC</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
             </ul>
           </div>
         </div>
@@ -257,35 +415,36 @@
         <h2 class="text-center mb-4 fw-bold" id="center"><span id="center_main">TRUNG TÂM NGHIÊN CỨU TỰ ĐỘNG HÓA CÔNG NGHIỆP</span></h2>
         <div id="productCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
           <div class="carousel-inner">
-            <!-- Slide 1 -->
+            <!-- Slide 0 -->
             <div class="carousel-item active">
-                <img src="img/2.png" alt="Handling Lab" >
+              <img src="img/service.png" alt="Smart Automation" id="none_1">
               <div class="carousel-caption">
-                <h3><span id="laB_1">Pneumatic Lab</span></h3>
-                <p id="lab"><span id="lab_1">Phòng thí nghiệm tự động hóa khí nén SMC</span></p>
+                <h3><span id="hpny">SERVICE & PRODUCTS</span></h3>
+                <p id="smart"><span id="lab_3">Dịch vụ và sản phẩm</span></p>
               </div>
             </div>
-            <!-- Slide 2 -->
+            <!-- Slide 1 -->
             <div class="carousel-item">
-              <img src="img/3.png" alt="High-Tech Solutions" id="nonee_1">
-              <div class="carousel-caption">
-                <h3><span id="laB_2">High-Tech Solutions</span></h3>
-                <p id="hightech"><span id="lab_2">Ứng dụng công nghệ cao</span></p>
-              </div>
-            </div>
-            <!-- Slide 3 -->
-            <div class="carousel-item">
-              <img src="img/4.png" alt="Smart Automation">
+              <img src="img/leader.png" alt="Smart Automation" id="none_2">
               <div class="carousel-caption">
                 <h3><span id="laB_3">Smart Automation</span></h3>
                 <p id="smart"><span id="lab_3">Tự động hóa công nghệp ứng dụng</span></p>
               </div>
             </div>
-            <div class="carousel-item">
-              <img src="img/LUNAR New Year (1).png" alt="Smart Automation" id="nonee">
+            <!-- Slide 2 -->
+            <div class="carousel-item ">
+                <img src="img/4 (2).png" alt="Handling Lab" id="none_3">
               <div class="carousel-caption">
-                <h3><span id="hpny">Happy New Year</span></h3>
-                <p id="smart"><span id="lab_3">Qúy khách hàng năm mới bình an</span></p>
+                <h3><span id="laB_1">Pneumatic Lab</span></h3>
+                <p id="lab"><span id="lab_1">Phòng thí nghiệm tự động hóa khí nén SMC</span></p>
+              </div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+              <img src="img/rnd.png" alt="High-Tech Solutions" id="none_4">
+              <div class="carousel-caption">
+                <h3><span id="laB_2">High-Tech Solutions</span></h3>
+                <p id="hightech"><span id="lab_2">Ứng dụng công nghệ cao</span></p>
               </div>
             </div>
           </div>
@@ -448,7 +607,7 @@
         <div class="col-md-8 col-lg-9 white-bg">
           <ul class="list-unstyled">
             <p class="custom-paragraph">
-              <span class="highlight"><span id="info_1">Công Ty TNHH Giải pháp tự động hóa HyperTECH</span></span><span id="info_2"> là đơn vị trong lĩnh vực tự động hóa, cung cấp giải pháp máy tự động, nghiên cứu phát triển hệ thống điều khiển và giám sát từ xa SCADA - DCS ( Giải pháp toàn diện - hướng đến tương lai).</span>
+              <span class="highlight"><span id="info_1">Trung Tâm Nghiên Cứu Giải pháp tự động hóa HyperTECH</span></span><span id="info_2"> là đơn vị trong lĩnh vực tự động hóa, cung cấp giải pháp máy tự động, nghiên cứu phát triển hệ thống điều khiển và giám sát từ xa SCADA - DCS ( Giải pháp toàn diện - hướng đến tương lai).</span>
             </p>            
             <li class="mb-2"><a href="#" class="text-dark text-decoration-none"><span id="info_3">Sản phẩm và dịch vụ của chúng tôi:</span></a></li>        
             <li class="mb-2"><a href="#" class="text-dark text-decoration-none">&#x2022; <span id="info_4">Cung cấp thiết bị tự động hóa - Hướng dẫn sử dụng thiết bị và nghiên cứu chuyên sâu</span></a></li>
@@ -480,12 +639,14 @@
           <img src="img/cadivi_logo.png" alt="Đối tác 4" class="img-fluid partner-logo">
           <img src="img/Logo_SMC_Corporation.svg.png" alt="Đối tác 2" class="img-fluid partner-logo">
           <img src="img/Siemens_AG_logo.svg.png" alt="Đối tác 3" class="img-fluid partner-logo">
+          <img src="img/pcbway.png" alt="Đối tác 3" class="img-fluid partner-logo">
+          <img src="img/sensor/panasonic industri.png" alt="Đối tác 3" class="img-fluid partner-logo">
       </div>
   </section>
 
 
   <footer class="footer text-center py-3">
-    <p>&copy; <span id="current-year"></span> 2025 Copyright HyperTECH Co.Ltd. All Rights Reserved.</p>
+    <p>&copy; <span id="current-year"></span> 2025 Copyright HyperTECH Solutions. All Rights Reserved.</p>
 </footer>
     
   

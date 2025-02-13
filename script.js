@@ -272,4 +272,41 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
+document.addEventListener("DOMContentLoaded", function () {
+    var dropdowns = document.querySelectorAll(".dropdown-submenu > a");
+
+    dropdowns.forEach(function (dropdown) {
+        dropdown.addEventListener("click", function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            var submenu = this.nextElementSibling;
+
+            // Đóng tất cả các submenu khác trước khi mở cái mới
+            document.querySelectorAll(".dropdown-submenu .dropdown-menu").forEach(function (menu) {
+                if (menu !== submenu) {
+                    menu.style.display = "none";
+                }
+            });
+
+            // Toggle submenu hiện/ẩn
+            submenu.style.display = (submenu.style.display === "block") ? "none" : "block";
+        });
+    });
+
+    // Đóng submenu khi bấm ra ngoài
+    document.addEventListener("click", function (e) {
+        if (!e.target.closest(".nav-item")) {
+            document.querySelectorAll(".dropdown-submenu .dropdown-menu").forEach(function (menu) {
+                menu.style.display = "none";
+            });
+        }
+    });
+});
+
+
+
+
+
+
 
