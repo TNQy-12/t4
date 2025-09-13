@@ -18,9 +18,11 @@ header {
 }
   
   /* Logo styles */
-  .header-logo img {
-    height: 40px;
-  }
+.header-logo img {
+    height: 100px; /* Điều chỉnh kích thước logo */
+}
+
+  
   
   /* Navigation styles */
   .header-nav {
@@ -231,9 +233,7 @@ header {
     padding: 10px; /* Padding cho header */
 }
 
-.header-logo img {
-    height: 50px; /* Điều chỉnh kích thước logo */
-}
+
 
 .header-nav {
     display: flex;
@@ -294,7 +294,7 @@ body {
 
 
       .header-logo img {
-        height: 35px; /* Điều chỉnh kích thước logo */
+        height: 75px; /* Điều chỉnh kích thước logo */
     }
     
 
